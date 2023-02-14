@@ -6,18 +6,17 @@ const Hero = () => {
         <div className='flex flex-col bg-slate-500 px-8'>
             <h1 className='font-semibold uppercase'>Software Developer & BLOCKCHAIN DEVELOPER</h1>
             <p>
-            Descubrí mi pasión por el desarrollo de software & TI en 2020, cuando determine cual camino quería recorrer, 
-            inicie ansioso por aprender una adaptación a través de diversos cursos, como Ciencias de la Computacion 
-            Online del Centro Stanford de Desarrollo Profesional de Stanford University a traves de estos encontré 
-            diferentes tecnologías, lenguajes como MongoDb , Express, React, NodeJS (MERN) y herramientas increibles 
-            para probar estas nuevas metodologías y mejores prácticas, sigo trabajando proactivamente, para crecer 
-            personal y Profesionalmente.
+            I discovered my passion for software development & Blockchain in 2020, when I determined which path I wanted to follow, 
+            I started an adaptation and professional training in Computer Science Online from the Stanford Center for Professional 
+            Development at Stanford University, through this training I found different technologies and excellent tools to test 
+            these new methodologies and best practices, such as Blockchain Development, Solidity, Truffle, Hardhat, Smart Contracts, Cryptocurrencies, 
+            NFTs and Git-GitHub, I continue to work proactively, I hope to continue growing personally and professionally.
             </p>
             <h3>Habilidades transferidas de mis puestos no tecnológicos:</h3>
-            <ul className='px-8 bg-slate-300'>
-                <l className='p-4'>Manager</l>
-                <l className='p-4'>Habilidades de comunicación</l>
-                <l className='p-4'>Negociación.</l>
+            <ul className='flex flex-col m-4'>
+                <l className='p-4 border rounded-lg'>Manager</l>
+                <l className='p-4 border rounded-lg'>Habilidades de comunicación</l>
+                <l className='p-4 border rounded-lg'>Negociación.</l>
             </ul>
         </div>
     </section>
