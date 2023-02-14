@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section>
         <div className='flex flex-col bg-slate-500 px-8'>
-            <h1 className='font-semibold'>Software Developer</h1>
+            <h1 className='font-semibold uppercase'>Software Developer & BLOCKCHAIN DEVELOPER</h1>
             <p>
             Descubrí mi pasión por el desarrollo de software & TI en 2020, cuando determine cual camino quería recorrer, 
             inicie ansioso por aprender una adaptación a través de diversos cursos, como Ciencias de la Computacion 
