@@ -5,8 +5,8 @@ const Traits = () => {
     <>
         <section>
             <div className='p-8'>
-              <h2>Traits</h2>
-              <ol className='px-8'>
+              <h2>TRAITS</h2>
+              <ol className='px-4'>
                   <li>Eager to learn </li>
                   <li>Coachable </li>
                   <li>Collaborative </li>

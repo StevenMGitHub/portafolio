@@ -35,8 +35,8 @@ const Hero = () => {
                 <h1 className='text-5xl font-semibold'>I'm <span className='text-white pl-1' id="typed" /></h1>
             </div>
 
-            <div>
-              <img className='w-28 h-28 rounded-full' src={Dev} alt="" />
+            <div className='flex flex-col justify-center items-center mt-4 gap-2'>
+              <img className='w-32 h-32 rounded-full' src={Dev} alt="" />
 
               <p>
                 I discovered my passion for software development & Blockchain in 2020, when I determined which path I wanted to follow, 
@@ -52,7 +52,7 @@ const Hero = () => {
                 <h3>Habilidades transferidas de mis puestos no tecnológicos:</h3>
               </div>
               <div>
-                <ul className='flex gap-2'>
+                <ul className='flex flex-col md:flex gap-2 px-4'>
                     <l className='p-2 border rounded-lg'>Manager</l>
                     <l className='p-2 border rounded-lg'>Habilidades de comunicación</l>
                     <l className='p-2 border rounded-lg'>Negociación.</l>
