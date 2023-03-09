@@ -1,7 +1,7 @@
 
 # My Portfolio
 
-This is my portfolio and it is created with Astro, React, Tailwind
+This is my portfolio and it is created with HTML5, Css3, JavaScript, Astro, React, Tailwind
 
 
 ## Author
