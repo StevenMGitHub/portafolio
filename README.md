@@ -5,13 +5,14 @@ A brief description of what this project does and who it's for
 
 
 ## Authors
-
-- [@octokatherine](https://www.github.com/octokatherine)
+**Steven Munox**
+- [Linkedin] (https://www.linkedin.com/in/steven-munox-dev)
+- [portfolio](https://steven-munox-dev.netlify.app/)
 
 
 ## Demo
 
-Insert gif or link to demo
+[Insert gif or link to demo](https://steven-munox-dev.netlify.app/)
 
 
 ## Installation
