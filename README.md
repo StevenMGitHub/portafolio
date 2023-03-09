@@ -12,7 +12,7 @@ This is my portfolio and it is created with Astro, React, Tailwind
 
 ## Demo
 
-[Insert gif or link to demo](https://steven-munox-dev.netlify.app/)
+[link to demo](https://steven-munox-dev.netlify.app/)
 
 
 ## Installation
