@@ -17,11 +17,10 @@ This is my portfolio and it is created with Astro, React, Tailwind
 
 ## Installation
 
-Install my-project with npm
+Installs dependencies
 
 ```bash
-  npm install my-project
-  cd my-project
+  npm install 
 ```
     
 
