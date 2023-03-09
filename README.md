@@ -1,12 +1,12 @@
 
-# Project Title
+# My Portfolio
 
-A brief description of what this project does and who it's for
+This is my portfolio and it is created with Astro, React, Tailwind
 
 
-## Authors
+## Author
 **Steven Munox**
-- [Linkedin] (https://www.linkedin.com/in/steven-munox-dev)
+- [Linkedin](https://www.linkedin.com/in/steven-munox-dev)
 - [portfolio](https://steven-munox-dev.netlify.app/)
 
 
