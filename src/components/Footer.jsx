@@ -1,7 +1,6 @@
 import React from 'react';
 import {
-  FaDribbbleSquare,
-  FaFacebookSquare,
+  FaLinkedin,
   FaGithubSquare,
   FaInstagram,
   FaTwitterSquare,
@@ -14,11 +13,14 @@ const Footer = () => {
             <h1 className='w-full text-3xl font-bold text-[#DAA520]'>STEVEN MUNOX</h1>
             <p className='py-4'>Solve Problems.</p>
             <div className='flex justify-between md:w-[75%] my-6'> {/* en dispositivos grandes ocupara solo el 75% */}
-                <FaFacebookSquare size={30} />
-                <FaInstagram size={30} />
-                <FaTwitterSquare size={30} />
-                <FaGithubSquare size={30} />
-                <FaDribbbleSquare size={30} />
+                <a href="https://github.com/StevenMGitHub">
+                    <FaGithubSquare size={30} />
+                </a>
+                <a href="https://linkedin.com/in/steven-munox-dev">
+                    <FaLinkedin size={30}></FaLinkedin>
+                </a>
+                    <FaInstagram size={30} />
+                    <FaTwitterSquare size={30} />
             </div>
         </div>
         <div className='lg:col-span-2 flex justify-between mt-6'> {/* en dispositivos grandes ocupar 2 espacios */}

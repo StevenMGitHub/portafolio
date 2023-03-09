@@ -1,10 +1,4 @@
 import {useState} from 'react';
-import {
-  FaFacebookSquare,
-  FaGithubSquare,
-  FaInstagram,
-  FaTwitterSquare,
-} from 'react-icons/fa/index';
 import { HiMenuAlt2 } from 'react-icons/hi/index';
 import {RiCloseFill} from 'react-icons/ri/index';
 
@@ -31,14 +25,6 @@ const Navbar = () => {
                       <li className='w-28 p-1 text-center rounded-2xl font-semibold border active:scale-110'><a href='#blog'>Blog</a></li>
                   </ul>
 
-                  <div>
-                    <div className='hidden md:flex justify-between my-6'> {/* en dispositivos grandes ocupara solo el 75% */}
-                        <FaFacebookSquare size={30} />
-                        <FaInstagram size={30} />
-                        <FaTwitterSquare size={30} />
-                        <FaGithubSquare size={30} />
-                    </div>
-                  </div>
 
                   <div className='md:hidden ' onClick={handleToggle}>
                     { toggle ? 

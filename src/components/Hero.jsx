@@ -1,6 +1,12 @@
 import {useRef, useState, useEffect} from 'react';
 import Dev from '../assets/img_box.jpg' 
 import Typed from 'typed.js';
+import {
+  FaLinkedin,
+  FaGithubSquare,
+  FaInstagram,
+  FaTwitterSquare,
+} from 'react-icons/fa/index';
 
 
 const Hero = () => {
@@ -36,7 +42,7 @@ const Hero = () => {
             </div>
 
             <div className='flex flex-col justify-center items-center mt-4 gap-2'>
-              <img className='w-40 h-40 rounded-full object-cover' src={Dev} alt="" />
+              <img className='w-48 h-48 rounded-full object-cover' src={Dev} alt="" />
 
               <p>
                 👨‍💻 I discovered my passion for software development & Blockchain in 2020, when I determined which path I wanted to follow, 
@@ -45,6 +51,19 @@ const Hero = () => {
                 these new methodologies and best practices, such as Blockchain Development, Solidity, Truffle, Hardhat, Smart Contracts, Cryptocurrencies, 
                 NFTs and Git-GitHub, I continue to work proactively, I hope to continue growing personally and professionally.
               </p>
+            </div>
+
+            <div>
+                <div className='hidden md:flex text-3xl justify-center gap-4 my-6'> {/* en dispositivos grandes ocupara solo el 75% */}
+                    <a href="https://github.com/StevenMGitHub">
+                      <FaGithubSquare size={30} />
+                    </a>
+                    <a href="https://linkedin.com/in/steven-munox-dev">
+                      <FaLinkedin size={30}></FaLinkedin>
+                    </a>
+                    <FaInstagram size={30} />
+                    <FaTwitterSquare size={30} />
+                </div>
             </div>
 
             <div className='flex flex-col my-4 gap-4'>
