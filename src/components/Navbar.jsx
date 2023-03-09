@@ -19,8 +19,8 @@ const Navbar = () => {
 
                   <ul className='hidden md:flex items-center gap-2'>
                       <li className='w-28 p-1 text-center rounded-2xl font-semibold border active:scale-110'><a href='#about'>About</a></li>
+                      <li className='w-28 p-1 text-center rounded-2xl font-semibold border active:scale-110'><a href='#technical-skills'>Skills</a></li>
                       <li className='w-28 p-1 text-center rounded-2xl font-semibold border active:scale-110'><a href='#projects'>Projects</a></li>
-                      <li className='w-28 p-1 text-center rounded-2xl font-semibold border active:scale-110'><a href='#works'>Works</a></li>
                       <li className='w-28 p-1 text-center rounded-2xl font-semibold border active:scale-110'><a href='#contact'>Contact</a></li>
                       <li className='w-28 p-1 text-center rounded-2xl font-semibold border active:scale-110'><a href='#blog'>Blog</a></li>
                   </ul>
@@ -33,9 +33,9 @@ const Navbar = () => {
                     }
                     { toggle ?
                           <ul className='md:hidden absolute right-8 flex flex-col bg-slate-400 rounded-md bg-opacity-75 p-3'>
-                            <li className='p-3 text-center font-semibold active:scale-110'><a href='#about'>About</a></li>
+                            <li className='p-3 text-center font-semibold active:scale-110'><a href='#about'>About</a></li>                            
+                            <li className='p-3 text-center font-semibold active:scale-110'><a href='#technical-skills'>Skills</a></li>
                             <li className='p-3 text-center font-semibold active:scale-110'><a href='#projects'>Projects</a></li>
-                            <li className='p-3 text-center font-semibold active:scale-110'><a href='#works'>Works</a></li>
                             <li className='p-3 text-center font-semibold active:scale-110'><a href='#contact'>Contact</a></li>
                             <li className='p-3 text-center font-semibold active:scale-110'><a href='#blog'>Blog</a></li>
                           </ul>

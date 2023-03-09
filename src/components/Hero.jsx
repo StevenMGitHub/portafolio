@@ -33,7 +33,7 @@ const Hero = () => {
 
   return (
     <section>
-        <div className='flex flex-col p-8'>            
+        <div className='flex flex-col px-8'>            
             <div>
               <h1 className='text-2xl'>Hello_</h1>
             </div>
@@ -41,20 +41,23 @@ const Hero = () => {
                 <h1 className='text-5xl font-semibold'>I'm <span className='text-white pl-1' id="typed" /></h1>
             </div>
 
-            <div className='flex flex-col justify-center items-center mt-4 gap-2'>
+            <div className='flex flex-col justify-center items-center mt-4 gap-2' id='about'>
               <img className='w-48 h-48 rounded-full object-cover' src={Dev} alt="" />
 
-              <p>
-                👨‍💻 I discovered my passion for software development & Blockchain in 2020, when I determined which path I wanted to follow, 
-                I started an adaptation and professional training in Computer Science Online from the Stanford Center for Professional 
-                Development at Stanford University, through this training I found different technologies and excellent tools to test 
-                these new methodologies and best practices, such as Blockchain Development, Solidity, Truffle, Hardhat, Smart Contracts, Cryptocurrencies, 
-                NFTs and Git-GitHub, I continue to work proactively, I hope to continue growing personally and professionally.
-              </p>
+              <div>
+                <p>
+                  👨‍💻 I discovered my passion for software development & Blockchain in 2020, when I determined which path I wanted to follow, 
+                  I started an adaptation and professional training in Computer Science Online from the Stanford Center for Professional 
+                  Development at Stanford University, through this training I found different technologies and excellent tools to test 
+                  these new methodologies and best practices, such as Blockchain Development, Solidity, Truffle, Hardhat, Smart Contracts, Cryptocurrencies, 
+                  NFTs and Git-GitHub, I continue to work proactively, I hope to continue growing personally and professionally.
+                </p>
+              </div>
+
             </div>
 
             <div>
-                <div className='hidden md:flex text-3xl justify-center gap-4 my-6'> {/* en dispositivos grandes ocupara solo el 75% */}
+                <div className='hidden md:flex text-3xl justify-center gap-4 my-4'> {/* en dispositivos grandes ocupara solo el 75% */}
                     <a href="https://github.com/StevenMGitHub">
                       <FaGithubSquare size={30} />
                     </a>
@@ -66,7 +69,7 @@ const Hero = () => {
                 </div>
             </div>
 
-            <div className='flex flex-col my-4 gap-4'>
+            <div className='flex flex-col gap-4'>
               <div>
                 <h3>🚀 Skills transferred from my non-tech positions:</h3>
               </div>

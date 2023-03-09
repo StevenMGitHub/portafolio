@@ -4,6 +4,7 @@ import Footer from './Footer';
 import Hero from './Hero';
 import ImageBox from './ImageBox';
 import Navbar from './Navbar';
+import Projects from './Projects';
 import TechnicalSkills from './TechnicalSkills';
 import Traits from './Traits';
 
@@ -20,6 +21,7 @@ const Wrapper = () => {
             <ImageBox></ImageBox>
             <Traits></Traits>
             <TechnicalSkills></TechnicalSkills>
+            <Projects></Projects>
             <Footer></Footer>
         </div>
     </div>

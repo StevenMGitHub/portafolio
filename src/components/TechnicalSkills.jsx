@@ -3,8 +3,8 @@ import React from 'react'
 const TechnicalSkills = () => {
   return (
     <>
-      <section>            
-            <div className='flex flex-col p-8'>
+      <section id='technical-skills'>            
+            <div className='flex flex-col px-8'>
               <div>
                 <h2>TECHNICAL SKILLS</h2>
               </div>          
@@ -24,8 +24,8 @@ const TechnicalSkills = () => {
             </div>
             
             
-            <h3 className='p-8'>LANGUAGES AND TOOLS:</h3>
-            <div className='flex flex-row justify-around'>  
+            <h3 className='px-8'>LANGUAGES AND TOOLS:</h3>
+            <div className='flex flex-row justify-around m-4'>  
               <div>
                 <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> 
               </div>            
