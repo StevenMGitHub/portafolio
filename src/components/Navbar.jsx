@@ -6,7 +6,7 @@ import {
   FaTwitterSquare,
 } from 'react-icons/fa/index';
 import { HiMenuAlt2 } from 'react-icons/hi/index';
-import {RiCloseFill} from 'react-icons/ri';
+import {RiCloseFill} from 'react-icons/ri/index';
 
 const Navbar = () => {
 
