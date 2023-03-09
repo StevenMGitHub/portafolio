@@ -1,16 +1,28 @@
-# Astro Starter Kit: Basics
 
+# Project Title
+
+A brief description of what this project does and who it's for
+
+
+## Authors
+
+- [@octokatherine](https://www.github.com/octokatherine)
+
+
+## Demo
+
+Insert gif or link to demo
+
+
+## Installation
+
+Install my-project with npm
+
+```bash
+  npm install my-project
+  cd my-project
 ```
-npm create astro@latest -- --template basics
-```
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
-
+    
 
 ## 🚀 Project Structure
 
