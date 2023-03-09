@@ -7,12 +7,12 @@ const Traits = () => {
             <div className='p-8'>
               <h2>TRAITS</h2>
               <ol className='px-4'>
-                  <li>Eager to learn </li>
-                  <li>Coachable </li>
-                  <li>Collaborative </li>
-                  <li>Clear communication </li>
-                  <li>Proactive </li>
-                  <li>Resourceful</li>
+                  <li>⚡️Eager to learn </li>
+                  <li>⚡️Coachable </li>
+                  <li>⚡️Collaborative </li>
+                  <li>⚡️Clear communication </li>
+                  <li>⚡️Proactive </li>
+                  <li>⚡️Resourceful</li>
               </ol>
             </div>
             

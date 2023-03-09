@@ -11,7 +11,7 @@ const Hero = () => {
   /* Usamos el gancho useEffect para crear la instancia Typed.js y destruirla al final */
   useEffect(() => {
     const options = {
-      strings: ['Sofware Developer','Blockchain Developer' , 'Pet Lover!'],
+      strings: ['Steven Munox', 'Sofware Developer', 'Blockchain Developer', 'Pet Lover!'],
       typeSpeed: 100,
       backSpeed: 80,
       loop: true,
@@ -36,10 +36,10 @@ const Hero = () => {
             </div>
 
             <div className='flex flex-col justify-center items-center mt-4 gap-2'>
-              <img className='w-32 h-32 rounded-full' src={Dev} alt="" />
+              <img className='w-40 h-40 rounded-full object-cover' src={Dev} alt="" />
 
               <p>
-                I discovered my passion for software development & Blockchain in 2020, when I determined which path I wanted to follow, 
+                👨‍💻 I discovered my passion for software development & Blockchain in 2020, when I determined which path I wanted to follow, 
                 I started an adaptation and professional training in Computer Science Online from the Stanford Center for Professional 
                 Development at Stanford University, through this training I found different technologies and excellent tools to test 
                 these new methodologies and best practices, such as Blockchain Development, Solidity, Truffle, Hardhat, Smart Contracts, Cryptocurrencies, 
@@ -49,13 +49,13 @@ const Hero = () => {
 
             <div className='flex flex-col my-4 gap-4'>
               <div>
-                <h3>Habilidades transferidas de mis puestos no tecnológicos:</h3>
+                <h3>🚀 Skills transferred from my non-tech positions:</h3>
               </div>
               <div>
                 <ul className='flex flex-col md:flex gap-2 px-4'>
-                    <l className='p-2 border rounded-lg'>Manager</l>
-                    <l className='p-2 border rounded-lg'>Habilidades de comunicación</l>
-                    <l className='p-2 border rounded-lg'>Negociación.</l>
+                    <l className='p-2 border rounded-lg'>✔️ Manager.</l>
+                    <l className='p-2 border rounded-lg'>✔️ Communication skills.</l>
+                    <l className='p-2 border rounded-lg'>✔️ Negotiation.</l>
                 </ul>
               </div>              
             </div>
