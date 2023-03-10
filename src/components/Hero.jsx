@@ -37,14 +37,15 @@ const Hero = () => {
             <div>
               <h1 className='text-2xl'>Hello_</h1>
             </div>
-            <div className='flex justify-start items-center'>
+            <div className='flex justify-start items-center' id='about'>
                 <h1 className='text-5xl font-semibold'>I'm <span className='text-white pl-1' id="typed" /></h1>
             </div>
 
-            <div className='flex flex-col justify-center items-center mt-4 gap-2' id='about'>
+            <div className='flex flex-col justify-center items-center mt-4 gap-2'>
               <img className='w-48 h-48 rounded-full object-cover' src={Dev} alt="" />
 
-              <div>
+              <div className='flex flex-col'>
+                <h1 className='font-semibold'>ABOUT ME</h1>
                 <p>
                   👨‍💻 I discovered my passion for software development & Blockchain in 2020, when I determined which path I wanted to follow, 
                   I started an adaptation and professional training in Computer Science Online from the Stanford Center for Professional 
@@ -69,7 +70,7 @@ const Hero = () => {
                 </div>
             </div>
 
-            <div className='flex flex-col gap-4'>
+            <div className='flex flex-col gap-4 mt-4'>
               <div>
                 <h3>🚀 Skills transferred from my non-tech positions:</h3>
               </div>

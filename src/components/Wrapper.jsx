@@ -2,7 +2,6 @@ import React from 'react';
 import Card from '../components/Card.astro';
 import Footer from './Footer';
 import Hero from './Hero';
-import ImageBox from './ImageBox';
 import Navbar from './Navbar';
 import Projects from './Projects';
 import TechnicalSkills from './TechnicalSkills';
@@ -18,7 +17,6 @@ const Wrapper = () => {
         <div className={style.wrapper}>
             <Navbar></Navbar>
             <Hero></Hero>
-            <ImageBox></ImageBox>
             <Traits></Traits>
             <TechnicalSkills></TechnicalSkills>
             <Projects></Projects>

@@ -15,7 +15,7 @@ const Navbar = () => {
         <section>
             <nav className='w-full h-20 flex justify-between items-center px-8 text-white'>
 
-                <h1 className='text-3xl font-bold text-white'>FOLIO.</h1>
+                <h1 className='text-3xl font-bold text-white'>FOLIO<span className='text-purple-300'>.</span></h1>
 
                   <ul className='hidden md:flex items-center gap-2'>
                       <li className='w-28 p-1 text-center rounded-2xl font-semibold border active:scale-110'><a href='#about'>About</a></li>
@@ -28,8 +28,10 @@ const Navbar = () => {
 
                   <div className='md:hidden ' onClick={handleToggle}>
                     { toggle ? 
+                        <RiCloseFill size={30}/>
+                      :  
                         <HiMenuAlt2 size={26}/>
-                      :  <RiCloseFill size={30}/>
+
                     }
                     { toggle ?
                           <ul className='md:hidden absolute right-8 flex flex-col bg-slate-400 rounded-md bg-opacity-75 p-3'>

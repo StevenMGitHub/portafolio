@@ -18,7 +18,7 @@ const Projects = () => {
         
         <div className='px-8 mt-4' id='projects'>
             <h1>PROJECTS</h1>
-            <div className='grid md:grid-cols-3 gap-4'>
+            <div className='grid md:grid-cols-3 gap-4 mt-4'>
 
                 <div className='bg-purple-300 opacity-95 rounded-2xl active:scale-110'>
                     <h1 className='ml-4'>Innova Intelligence</h1>
