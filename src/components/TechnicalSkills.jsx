@@ -6,7 +6,7 @@ const TechnicalSkills = () => {
       <section id='technical-skills'>            
             <div className='flex flex-col px-8 mt-4'>
               <div>
-                <h2>TECHNICAL SKILLS</h2>
+                <h2 className='font-semibold'>TECHNICAL SKILLS</h2>
               </div>          
               <div className='grid md:grid-cols-3 gap-2 mt-4'>
                   <a className='p-4 rounded-lg bg-purple-400 font-bold' href="">Blockchain</a>

@@ -5,7 +5,7 @@ const Traits = () => {
     <>
         <section>
             <div className='px-8 mt-4'>
-              <h2>TRAITS</h2>
+              <h2 className='font-semibold'>TRAITS</h2>
               <ol className='mt-2 px-4'>
                   <li>⚡️Eager to learn </li>
                   <li>⚡️Coachable </li>
