@@ -24,7 +24,7 @@ const TechnicalSkills = () => {
             </div>
             
             
-            <h3 className='px-8 mt-4'>LANGUAGES AND TOOLS:</h3>
+            <h3 className='px-8 mt-4 font-semibold'>LANGUAGES AND TOOLS:</h3>
             <div className='flex flex-wrap md:flex-row justify-around gap-2 m-4'>            
               <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> 
               <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> 
