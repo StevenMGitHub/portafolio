@@ -1,5 +1,7 @@
 import {useRef, useState, useEffect} from 'react';
-import Dev from '../assets/img_box.jpg' 
+import Dev from '../assets/img_box.jpg';
+import Pro1 from '../assets/profile1.png'; 
+import Pro2 from '../assets/profile2.png'; 
 import Typed from 'typed.js';
 import {
   FaLinkedin,
@@ -42,7 +44,7 @@ const Hero = () => {
             </div>
 
             <div className='flex flex-col justify-center items-center mt-4 gap-2'>
-              <img className='w-48 h-48 rounded-full object-cover' src={Dev} alt="" />
+              <img className='w-48 h-48 rounded-full object-cover' src={Pro2} alt="" />
 
               <div className='flex flex-col'>
                 <h1 className='font-semibold'>ABOUT ME</h1>
