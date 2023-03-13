@@ -8,7 +8,7 @@ const TechnicalSkills = () => {
               <div>
                 <h2 className='font-semibold'>TECHNICAL SKILLS</h2>
               </div>          
-              <div className='grid md:grid-cols-3 gap-2 mt-4'>
+              <div className='grid md:grid-cols-3 gap-2 mt-4 text-gray-200'>
                   <a className='p-4 rounded-lg bg-purple-400 font-bold' href="">Blockchain</a>
                   <a className='p-4 rounded-lg bg-purple-400 font-bold' href="">Solidity</a>
                   <a className='p-4 rounded-lg bg-purple-400 font-bold' href="">Cryptography</a>

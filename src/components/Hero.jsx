@@ -48,7 +48,7 @@ const Hero = () => {
 
               <div className='flex flex-col'>
                 <h1 className='font-semibold'>ABOUT ME</h1>
-                <p>
+                <p className='text-gray-300'>
                   👨‍💻 I discovered my passion for software development & Blockchain in 2020, when I determined which path I wanted to follow, 
                   I started an adaptation and professional training in Computer Science Online from the Stanford Center for Professional 
                   Development at Stanford University, through this training I found different technologies and excellent tools to test 
@@ -77,7 +77,7 @@ const Hero = () => {
                 <h3>🚀 Skills transferred from my non-tech positions:</h3>
               </div>
               <div>
-                <ul className='flex flex-col md:flex gap-2 px-4'>
+                <ul className='flex flex-col md:flex gap-2 px-4 text-gray-300'>
                     <l className='p-2 border rounded-lg'>✔️ Manager.</l>
                     <l className='p-2 border rounded-lg'>✔️ Communication skills.</l>
                     <l className='p-2 border rounded-lg'>✔️ Negotiation.</l>

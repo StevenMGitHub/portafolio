@@ -102,7 +102,7 @@ const Projects = () => {
             </div>
             <div className='mt-8'>
                 <blockquote cite="http://news.rediff.com/report/2009/sep/14/pm-pays-tribute-to-father-of-green-revolution-borlaug.htm">
-                    <p>
+                    <p className='text-gray-300'>
                         "Es genial trabajar con ordenadores. No discuten, lo recuerdan todo y no se beben tu cerveza"
                     </p>
                     <cite> -- Paul Leary</cite>
