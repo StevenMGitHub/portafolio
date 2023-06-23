@@ -8,7 +8,7 @@ const TechnicalSkills = () => {
               <div>
                 <h2 className='font-semibold'>TECHNICAL SKILLS</h2>
               </div>          
-              <div className='grid md:grid-cols-3 gap-2 mt-4 text-gray-200'>
+{/*               <div className='grid md:grid-cols-3 gap-2 mt-4 text-gray-200'>
                   <a className='p-4 rounded-lg bg-purple-400 font-bold' href="">Blockchain</a>
                   <a className='p-4 rounded-lg bg-purple-400 font-bold' href="">Solidity</a>
                   <a className='p-4 rounded-lg bg-purple-400 font-bold' href="">Cryptography</a>
@@ -20,7 +20,20 @@ const TechnicalSkills = () => {
                   <a className='p-4 rounded-lg bg-purple-400 font-bold' href="">DeFi</a>
                   <a className='p-4 rounded-lg bg-purple-400 font-bold' href="">Git</a>
                   <a className='p-4 rounded-lg bg-purple-400 font-bold' href="">GitHub</a>
-              </div>        
+              </div>  */} 
+
+              <div className='grid md:grid-cols-3 gap-2 mt-4 text-gray-200'>
+                  <a className='p-4 rounded-lg bg-purple-400 font-bold' href="">HTML5</a>
+                  <a className='p-4 rounded-lg bg-purple-400 font-bold' href="">CSS3</a>
+                  <a className='p-4 rounded-lg bg-purple-400 font-bold' href="">JavaScript</a>
+                  <a className='p-4 rounded-lg bg-purple-400 font-bold' href="">React JS</a>
+                  <a className='p-4 rounded-lg bg-purple-400 font-bold' href="">Next JS</a>
+                  <a className='p-4 rounded-lg bg-purple-400 font-bold' href="">Node JS</a>
+                  <a className='p-4 rounded-lg bg-purple-400 font-bold' href="">Git and GitHub</a>
+                  <a className='p-4 rounded-lg bg-purple-400 font-bold' href="">Fundaments of methodologies Agile</a>
+                  <a className='p-4 rounded-lg bg-purple-400 font-bold' href="">Introductory DevOps</a>
+                  <a className='p-4 rounded-lg bg-purple-400 font-bold' href="">AWS Cloud Practitioner</a>
+              </div>         
             </div>
             
             
