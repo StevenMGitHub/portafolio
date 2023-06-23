@@ -49,7 +49,7 @@ const Hero = () => {
               <div className='flex flex-col'>
                 <h1 className='font-semibold'>ABOUT ME</h1>
                 <p className='text-gray-300'>
-                  👨‍💻 I discovered my passion for software development & Blockchain in 2020, when I determined which path I wanted to follow, 
+                  👨‍💻 I discovered my passion for software development & IT in 2020, when I determined which path I wanted to follow, 
                   I started an adaptation and professional training in Computer Science Online from the Stanford Center for Professional 
                   Development at Stanford University, through this training I found different technologies and excellent tools to test 
                   these new methodologies and best practices, such as Blockchain Development, Solidity, Truffle, Hardhat, Smart Contracts, Cryptocurrencies, 
