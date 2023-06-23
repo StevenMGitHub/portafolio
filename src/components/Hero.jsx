@@ -19,7 +19,7 @@ const Hero = () => {
   /* Usamos el gancho useEffect para crear la instancia Typed.js y destruirla al final */
   useEffect(() => {
     const options = {
-      strings: ['Steven Munox', 'Sofware Developer', 'React Developer', 'Pet Lover!'],
+      strings: ['Steven Munox', 'Software Developer', 'React Developer', 'Pet Lover!'],
       typeSpeed: 100,
       backSpeed: 80,
       loop: true,
